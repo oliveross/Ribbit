@@ -52,5 +52,6 @@
     <string name="content_desc_user_avatar">User Avatar</string>
     <string name="content_desc_user_checkmark">User Checkmark</string>
     <string name="push_message">You have a new Ribbit message from %s!</string>
+    <string name="title_activity_text">TextActivity</string>
 
 </resources>
