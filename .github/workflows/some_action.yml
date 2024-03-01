@@ -1,11 +1,11 @@
 name: Branch for release
 
 on:
-  push:
-    branches:
-      - some-other-branch
   schedule:
     - cron: "*/5 * * * *"
+  # push:
+  #   branches:
+  #     - some-other-branch
 
 jobs:
   test_schedule:
