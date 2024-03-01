@@ -34,6 +34,7 @@ import butterknife.InjectView;
 
 
 public class EditFriendsActivity extends ActionBarActivity {
+    // some random comment
 
     public static final String TAG = EditFriendsActivity.class.getSimpleName();
 
