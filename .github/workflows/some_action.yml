@@ -1,0 +1,15 @@
+name: Branch for release
+
+on:
+  push:
+    branches:
+      - some-other-branch
+  schedule:
+    - cron: "*/5 * * * *"
+
+jobs:
+  test_schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Not on Monday or Wednesday
+        run: echo $(date +'%Y-%m-%dT%H:%M:%S')
